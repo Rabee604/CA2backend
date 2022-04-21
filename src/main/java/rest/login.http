@@ -13,3 +13,17 @@ GET http://localhost:8080/CA2backend_war_exploded/api/all
 
 ###
 GET http://localhost:8080/CA2backend_war_exploded/api/info/jokes
+
+###
+POST https://rabeeabla.dk/CA2backend/api/login
+
+{username: "user", password: "test123"}
+
+###
+POST http://localhost:8080/CA2backend_war_exploded/api/info/boat
+
+{
+brand: "Newbrand",
+make: "NewMake",
+name: "NewMake"
+}
