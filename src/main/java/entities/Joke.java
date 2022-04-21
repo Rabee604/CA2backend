@@ -1,5 +1,5 @@
 package entities;
-
+//Hej
 public class Joke {
 
     private String joke;
